@@ -1,0 +1,110 @@
+[
+ {
+  "q": "What year did The Princess Bride come out in theaters?",
+  "options": [
+   "1987",
+   "1977",
+   "1997"
+  ],
+  "answer": 0,
+  "explain": "1987! Right at the top of your fact sheet.",
+  "type": "mc"
+ },
+ {
+  "type": "number",
+  "q": "How many fingers does Count Rugen have on his right hand?",
+  "min": 3,
+  "max": 10,
+  "step": 1,
+  "unit": "fingers",
+  "answer": 6,
+  "tolerance": 0,
+  "explain": "Six. That is how Inigo knows he has finally found the man who killed his father. It is on your fact sheet."
+ },
+ {
+  "type": "who",
+  "q": "Who says \"Hello. My name is Inigo Montoya. You killed my father. Prepare to die.\"?",
+  "options": [
+   "Westley",
+   "Buttercup",
+   "Inigo Montoya",
+   "Fezzik"
+  ],
+  "answer": 2,
+  "explain": "Inigo, of course. He practiced that line for twenty years."
+ },
+ {
+  "type": "order",
+  "q": "Put Westley's rescue in order.",
+  "items": [
+   "Buttercup is kidnapped by Vizzini, Inigo and Fezzik",
+   "The man in black climbs the Cliffs of Insanity",
+   "Westley and Buttercup cross the Fire Swamp",
+   "Miracle Max brings Westley back from mostly dead"
+  ],
+  "explain": "Kidnapped, then the cliffs, then the Fire Swamp, and Miracle Max comes after Westley is only mostly dead."
+ },
+ {
+  "type": "tf",
+  "q": "The Dread Pirate Roberts is one single pirate who never dies.",
+  "answer": false,
+  "explain": "False. It is a name passed from pirate to pirate. Westley got it from the last Roberts, who retired."
+ },
+ {
+  "type": "blank",
+  "q": "As you ____.",
+  "options": [
+   "wish",
+   "like",
+   "say"
+  ],
+  "answer": 0,
+  "explain": "Wish. And what Westley really means every time is: I love you."
+ },
+ {
+  "q": "What does Westley really mean when he says 'As you wish'?",
+  "options": [
+   "I love you",
+   "Right away, boss",
+   "Whatever you say, goodbye"
+  ],
+  "answer": 0,
+  "explain": "That day, she was amazed to discover that when he was saying 'As you wish', what he meant was 'I love you.'",
+  "type": "mc"
+ },
+ {
+  "q": "How does Westley beat Vizzini in the battle of wits?",
+  "options": [
+   "Both cups were poisoned; Westley spent years becoming immune to iocane powder",
+   "He switched the cups when Vizzini looked away",
+   "He tricked Vizzini into drinking nothing at all"
+  ],
+  "answer": 0,
+  "explain": "Never go in against a Sicilian when death is on the line... unless both cups are poisoned and you are immune.",
+  "type": "mc"
+ },
+ {
+  "q": "What does Fezzik love to do while he works?",
+  "options": [
+   "Make rhymes",
+   "Sing sea songs",
+   "Juggle boulders"
+  ],
+  "answer": 0,
+  "explain": "Anybody want a peanut? Fezzik rhymes his way through everything, which drives Vizzini crazy.",
+  "type": "mc"
+ },
+ {
+  "type": "spot",
+  "q": "Tap Westley, the man in black.",
+  "scene": 1,
+  "targets": [
+   [
+    0.55,
+    0.4,
+    0.12
+   ]
+  ],
+  "explain": "Westley in his black mask and clothes, right in the middle of the Fire Swamp with Buttercup."
+ }
+]

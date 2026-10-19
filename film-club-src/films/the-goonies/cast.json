@@ -1,0 +1,46 @@
+[
+ {
+  "actor": "Sean Astin",
+  "character": "Mikey",
+  "img": "mikey.jpg",
+  "character_desc": "The dreamer of the group. Inhaler in one hand, treasure map in the other. When the Goonies want to quit, Mikey's speeches keep them going.",
+  "actor_facts": [
+   "He grew up to play Samwise the hobbit in The Lord of the Rings.",
+   "His mom, Patty Duke, was a famous actress who won an Oscar as a teenager.",
+   "He says fans still yell GOONIES NEVER SAY DIE at him almost every day."
+  ]
+ },
+ {
+  "actor": "Jeff Cohen",
+  "character": "Chunk",
+  "img": "chunk.jpg",
+  "character_desc": "Klutzy, hungry, and eventually 100 percent honest. His Truffle Shuffle opens the gate, and his big heart wins over a monster.",
+  "actor_facts": [
+   "He caught chicken pox during filming, and makeup covered the spots so he could keep going.",
+   "He grew up to become a real Hollywood lawyer who makes movie deals.",
+   "The Truffle Shuffle dance was invented just for this movie."
+  ]
+ },
+ {
+  "actor": "Ke Huy Quan",
+  "character": "Data",
+  "img": "data.jpg",
+  "character_desc": "The inventor with booby-trap counter-measures strapped to his chest. Pinchers of Peril! Slick Shoes! Sometimes they even work.",
+  "actor_facts": [
+   "The year before, he was Short Round in Indiana Jones and the Temple of Doom.",
+   "In 2023 he won an Oscar, almost 40 years after playing Data.",
+   "He came to America as a refugee kid from Vietnam before becoming a movie star."
+  ]
+ },
+ {
+  "actor": "Corey Feldman",
+  "character": "Mouth",
+  "img": "mouth.jpg",
+  "character_desc": "The fast talker who never stops joking, translates Spanish (badly, on purpose), and secretly cares about his friends more than he lets on.",
+  "actor_facts": [
+   "He was one of the busiest kid actors of the 1980s: Gremlins, Stand by Me, and more.",
+   "He improvised a bunch of Mouth's jokes on set.",
+   "He and Sean Astin are still friends and do Goonies reunions together."
+  ]
+ }
+]

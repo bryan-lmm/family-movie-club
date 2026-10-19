@@ -1,0 +1,12 @@
+{
+ "port": 8891,
+ "printing_enabled": false,
+ "dry_run": false,
+ "parent_code": "1234",
+ "printer": "My_Printer",
+ "kids": [
+  "Riley",
+  "Olivia",
+  "Graham"
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "people": [],
+ "movies": {
+  "title": "Our Movie Timeline",
+  "blurb": "Every movie we have studied, on one timeline. Scroll and watch the years go by.",
+  "start": 1982,
+  "end": 2026,
+  "events": [
+   {
+    "year": 1982,
+    "kind": "film",
+    "slug": "e-t-the-extra-terrestrial",
+    "title": "E.T. the Extra-Terrestrial"
+   },
+   {
+    "year": 1985,
+    "kind": "film",
+    "slug": "back-to-the-future",
+    "title": "Back to the Future"
+   },
+   {
+    "year": 1985,
+    "kind": "film",
+    "slug": "the-goonies",
+    "title": "The Goonies"
+   },
+   {
+    "year": 1987,
+    "kind": "film",
+    "slug": "the-princess-bride",
+    "title": "The Princess Bride"
+   },
+   {
+    "year": 1993,
+    "kind": "film",
+    "slug": "jurassic-park",
+    "title": "Jurassic Park"
+   },
+   {
+    "year": 2013,
+    "kind": "ref",
+    "img": "tl-frozen.jpg",
+    "title": "Frozen",
+    "note": "Not a film study, just here so you can see where it lands."
+   },
+   {
+    "year": 2025,
+    "kind": "ref",
+    "img": "tl-kpdh.jpg",
+    "title": "KPop Demon Hunters",
+    "note": "Not a film study, just here so you can see where it lands."
+   }
+  ]
+ },
+ "tech": {
+  "title": "How Movies Got Their Magic",
+  "blurb": "Movies did not always talk, or move in color, or have dinosaurs. Here is how people invented all of it.",
+  "start": 1830,
+  "end": 2026,
+  "events": [
+   {
+    "year": 1834,
+    "yearLabel": "1834",
+    "title": "The Spinning Toy",
+    "body": "Long before cameras, an English math teacher built a drum with slits cut in its side and a strip of drawings inside. Spin it, peer through the slits, and the drawings run, jump, and gallop. Your eyes fill in the gaps between the pictures.",
+    "wow": "Movies still work exactly this way. Show your eyes about 24 pictures every second and your brain turns them into motion. That is all a movie is.",
+    "img": "tech-zoetrope.jpg"
+   },
+   {
+    "year": 1878,
+    "yearLabel": "1878",
+    "title": "Twelve Cameras, One Horse",
+    "body": "A racehorse named Sallie Gardner tore down a track in California and tripped a string in front of each of twelve cameras, snapping her own picture twelve times. Lined up in order, the photos moved.",
+    "wow": "The photos proved a galloping horse does lift all four hooves off the ground at once, but tucked under its belly, not stretched out like every painting showed.",
+    "img": "tech-horse.jpg"
+   },
+   {
+    "year": 1888,
+    "yearLabel": "1888",
+    "title": "Two Seconds In A Garden",
+    "body": "In Leeds, England, a French inventor named Louis Le Prince pointed his homemade camera at his family walking in circles on the lawn. The film lasts about two seconds. It is the oldest movie that still exists, and you can watch it today.",
+    "wow": "Two years later Le Prince got on a train to Paris carrying his newest camera and was never seen again. Nobody knows what happened to him.",
+    "img": "tech-garden.jpg"
+   },
+   {
+    "year": 1895,
+    "yearLabel": "1895",
+    "title": "The Paris Basement Show",
+    "body": "In a Paris cafe basement, two brothers projected ten short films for thirty three paying customers. The films showed ordinary things, workers walking out of a factory and a baby eating lunch, and the audience loved it.",
+    "wow": "Within one year, crews sent out by those two brothers were showing films in London, Bombay and Buenos Aires, half a world apart.",
+    "img": "tech-lumiere.jpg"
+   },
+   {
+    "year": 1902,
+    "yearLabel": "1902",
+    "title": "Shot Into The Moon's Eye",
+    "body": "A French magician fired explorers out of a giant cannon, straight into the eye of the moon, using painted scenery, trapdoors, and a hidden cut that let one thing become another. Movies could now show things that never happened.",
+    "wow": "The color version was painted onto the film by hand, one frame at a time, 13,375 frames for every copy, by a room of women where each worker painted only a single color.",
+    "img": "tech-melies.jpg"
+   },
+   {
+    "year": 1903,
+    "yearLabel": "1903",
+    "title": "Two Places At Once",
+    "body": "Instead of one unbroken shot, this short western jumped from the robbers on the train back to the man they had tied up at the station. Cutting between two places made both feel like they were happening right now.",
+    "wow": "One shot shows a bandit pointing his pistol straight at the camera and firing, and theaters were told they could stick that shot at the beginning of the film or the end, whichever they liked.",
+    "img": "tech-editing.jpg"
+   },
+   {
+    "year": 1914,
+    "yearLabel": "1914",
+    "title": "A Dinosaur Who Did Tricks",
+    "body": "A newspaper cartoonist named Winsor McCay drew a dinosaur named Gertie ten thousand times, on ten thousand sheets of paper, each one a tiny bit different. Then he stood on a stage beside the screen with a whip and gave her orders, and Gertie bowed, danced, and even cried when he scolded her.",
+    "wow": "At the end of the act McCay walked off the stage and appeared inside the cartoon, climbing onto Gertie's back as she carried him away.",
+    "img": "tech-gertie.jpg"
+   },
+   {
+    "year": 1927,
+    "yearLabel": "1927",
+    "title": "Movies Learn To Talk",
+    "body": "For more than thirty years movies were silent, played with live music in the room. Then a singer spoke straight to the audience, told them they had heard nothing yet, and within two years the whole business had changed.",
+    "wow": "The sound was not on the film at all but on a record bigger than a dinner plate spinning beside the projector, and if it slipped the actors' mouths stopped matching their voices.",
+    "img": "tech-sound.jpg"
+   },
+   {
+    "year": 1928,
+    "yearLabel": "1928",
+    "title": "Cartoons Start Singing",
+    "body": "One year after movies learned to talk, a cartoon mouse whistled a tune on a steamboat and the whole audience could hear it. Walt Disney's Steamboat Willie locked the drawings and the music together, beat for beat, better than anyone had before, and it made the mouse famous overnight.",
+    "wow": "Walt Disney did the mouse's voice himself, and kept doing it for almost twenty years.",
+    "img": "tech-cartoon.jpg"
+   },
+   {
+    "year": 1933,
+    "yearLabel": "1933",
+    "title": "A Monster You Could Hold",
+    "body": "The giant ape climbing the skyscraper in King Kong was a model about as tall as a ruler and a half, with a metal skeleton under rubber and rabbit fur. The animator nudged it a tiny bit, took one photo, nudged it again, and took another. It took 24 photos to make one second of the movie.",
+    "wow": "Watch closely and Kong's fur ripples in every shot. Those are the animator's fingerprints pressing the fur between photos.",
+    "img": "tech-kong.jpg"
+   },
+   {
+    "year": 1937,
+    "yearLabel": "1937",
+    "title": "First Hand Drawn Feature",
+    "body": "Walt Disney bet his whole studio on a full length cartoon, and people called it Disney's Folly. Movies flash 24 pictures every second, so a single second needed 12 to 24 hand painted sheets, photographed one frame at a time.",
+    "wow": "Artists made close to two million drawings and sketches for Snow White, and more than 250,000 of them made it onto the screen.",
+    "img": "tech-snowwhite.jpg"
+   },
+   {
+    "year": 1939,
+    "yearLabel": "1939",
+    "title": "Opening The Door To Color",
+    "body": "Color movies already existed, but The Wizard of Oz was the one that made everybody gasp. Kansas is filmed in brown and white, and when Dorothy opens her front door, the world outside is bursting with color. The Technicolor camera needed lamps so bright the set got hotter than a summer day.",
+    "wow": "For the famous door shot, the inside of the house was painted brown and a stand-in wearing a brown dress opened the door. Then the real Dorothy, in her blue dress, stepped into the color.",
+    "img": "tech-oz.jpg"
+   },
+   {
+    "year": 1952,
+    "yearLabel": "1952",
+    "title": "Theaters Fight Television",
+    "body": "Families stayed home to watch television, so theaters fought back by going enormous. This Is Cinerama ran three projectors at once onto a giant curved screen. It opened as a small gray picture, then burst wide onto a roller coaster.",
+    "wow": "The very next year theaters handed out cardboard 3D glasses, and monsters seemed to leap off the screen into the crowd.",
+    "img": "tech-cinerama.jpg"
+   },
+   {
+    "year": 1964,
+    "yearLabel": "1964",
+    "title": "Dancing With Cartoon Penguins",
+    "body": "In Mary Poppins, real actors dance with cartoon penguin waiters. The dancers were filmed in front of a screen glowing a special yellow light, and a camera with a prism inside could tell the people apart from the yellow. Then the penguins were drawn in afterwards, one frame at a time.",
+    "wow": "The penguins were drawn after the dancing was filmed, so the animators had to match every single step the dancer took.",
+    "img": "tech-poppins.jpg"
+   },
+   {
+    "year": 1975,
+    "yearLabel": "1975",
+    "title": "The Shark That Kept Breaking",
+    "body": "For Jaws, Steven Spielberg built a huge mechanical shark. Then he put it in the ocean, and the salt water broke it, again and again. So he filmed most of the movie without showing the shark at all: just a fin, a rope, a camera gliding underwater, and two scary notes of music.",
+    "wow": "The shark sank to the bottom of the sea the very first time they tested it. The broken shark made the movie scarier, and audiences spent that whole summer afraid of the water.",
+    "img": "tech-jaws.jpg"
+   },
+   {
+    "year": 1977,
+    "yearLabel": "1977",
+    "title": "A Camera That Remembers",
+    "body": "To film the space battle in Star Wars, a computer memorized every inch of the camera's path and repeated it perfectly, again and again. Each model ship was filmed alone, then all the layers were stacked into one shot.",
+    "wow": "The spaceships mostly sat still on blue painted poles, and it was the camera that did the flying.",
+    "img": "tech-vfx.jpg"
+   },
+   {
+    "year": 1982,
+    "yearLabel": "1982",
+    "title": "An Alien Made Of Cables",
+    "body": "E.T. was not a costume and not a cartoon. He was a puppet packed with cables, levers, and tiny motors, and it took a team of people working at once to make his face frown, smile, and blink. For the walking scenes, a very small actor wore an E.T. suit.",
+    "wow": "Spielberg asked for E.T. to have the wise, kind eyes of an old man, so the puppet makers studied photographs of Albert Einstein.",
+    "img": "tech-et.jpg"
+   },
+   {
+    "year": 1993,
+    "yearLabel": "1993",
+    "title": "Dinosaurs That Breathed",
+    "body": "Artists built dinosaurs inside a computer, gave them skeletons, and made the skin stretch over moving muscles. In Jurassic Park a made up creature stood out in broad daylight and looked completely alive for the first time.",
+    "wow": "Dinosaurs are on screen for only about 15 minutes of the whole movie, and just 6 of those minutes came from a computer, since the rest were life sized robot dinosaurs the actors could really touch.",
+    "img": "tech-cgi.jpg"
+   },
+   {
+    "year": 1995,
+    "yearLabel": "1995",
+    "title": "The First All Computer Movie",
+    "body": "No cameras, no paint, no puppets. Every single picture in this movie was calculated by computers, the first feature length film made entirely that way. Added together, its machines spent almost a hundred years of thinking time, all at once.",
+    "wow": "One single frame could take up to 30 hours to finish, and the movie needed about 114,000 of them.",
+    "img": "tech-toystory.jpg"
+   },
+   {
+    "year": 1999,
+    "yearLabel": "1999",
+    "title": "One Hundred Cameras, One Jump",
+    "body": "Remember the twelve cameras and the horse? In The Matrix, a hundred and twenty still cameras stood in a curve around an actor as he leaned back in mid air. They fired one after another, and stitched together it looked like time had frozen while the camera flew around him.",
+    "wow": "The actor was not really floating. He hung from wires that a computer erased later.",
+    "img": "tech-bullettime.jpg"
+   },
+   {
+    "year": 2002,
+    "yearLabel": "2002",
+    "title": "Movies Without Film",
+    "body": "A new Star Wars movie was shot with no film in the camera at all. The pictures were recorded onto tape instead. Soon theaters stopped threading reels of film and started playing movies off hard drives.",
+    "wow": "One movie printed on film was about two miles of film strip, arriving at the theater in stacks of heavy metal cans.",
+    "img": "tech-digital.jpg"
+   },
+   {
+    "year": 2009,
+    "yearLabel": "2009",
+    "title": "Dots That Turn People Into Creatures",
+    "body": "For Avatar, the actors wore black suits covered in dots and a tiny camera on a helmet pointed at their own face. Computers tracked every dot and every eyebrow, and turned each actor into a nine foot tall blue alien who moved exactly the way they did.",
+    "wow": "The actors performed in a plain grey room, but the director could look at a screen and see them standing in the finished alien jungle while they acted.",
+    "img": "tech-threed.jpg"
+   },
+   {
+    "year": 2013,
+    "yearLabel": "2013",
+    "title": "Teaching A Computer About Snow",
+    "body": "Elsa's snow in Frozen does not just sit there. It packs, crumbles, and squeaks under boots, because Disney built a program that treats snow as millions of tiny particles that push and stick to each other, like the real thing. They even hired a scientist who studies snowflakes.",
+    "wow": "One single picture of Elsa's ice palace took a computer about 30 hours to finish, and the movie needed more than a hundred thousand pictures.",
+    "img": "tech-frozen.jpg"
+   },
+   {
+    "year": 2019,
+    "yearLabel": "2019",
+    "title": "Acting Inside A Giant Screen",
+    "body": "Instead of a green screen, the crew of The Mandalorian built a wall of LED screens taller than a house, curved most of the way around a round set. The screens show the alien planet, and when the camera moves, the planet on the wall moves with it, so the actors can see the world they are standing in.",
+    "wow": "The worlds on the wall were built with the same tools used to make video games, and the crew could move the sun with a tablet.",
+    "img": "tech-volume.jpg"
+   },
+   {
+    "year": 2026,
+    "yearLabel": "Today",
+    "title": "A Camera In Every Pocket",
+    "body": "Films now travel as files instead of reels, and can reach a screen anywhere in the world on the same day. And the camera in a pocket shoots video sharp enough that whole movies have been made on phones.",
+    "wow": "The camera in a pocket today can record each picture with four times as many tiny dots as the camera that shot that Star Wars movie back in 2002.",
+    "img": "tech-today.jpg"
+   }
+  ]
+ }
+}

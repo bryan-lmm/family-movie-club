@@ -1,0 +1,46 @@
+[
+ {
+  "actor": "Michael J. Fox",
+  "character": "Marty McFly",
+  "img": "marty.jpg",
+  "character_desc": "A 17-year-old guitar player who rides his skateboard everywhere, is best friends with a wild inventor, and accidentally becomes the first teenager to travel through time.",
+  "actor_facts": [
+   "He filmed his TV show Family Ties all day and Back to the Future all night, sleeping just a few hours for months.",
+   "He grew up in Canada and is 5 foot 4, which made the DeLorean look extra big next to him.",
+   "Today he runs the Michael J. Fox Foundation, which has raised more than a billion dollars for research to cure Parkinson's disease."
+  ]
+ },
+ {
+  "actor": "Christopher Lloyd",
+  "character": "Doc Brown",
+  "img": "doc.jpg",
+  "character_desc": "The wild-haired inventor who turned a DeLorean into a time machine. GREAT SCOTT! He has been Marty's best friend for years, even though he is about 50 years older.",
+  "actor_facts": [
+   "He was only 46 when he played Doc. Makeup and a wild white wig made him look much older.",
+   "You might know him as Uncle Fester in The Addams Family or the villain in Who Framed Roger Rabbit.",
+   "Doc's look was partly inspired by Albert Einstein, which is also the name of Doc's dog."
+  ]
+ },
+ {
+  "actor": "Lea Thompson",
+  "character": "Lorraine",
+  "img": "lorraine.png",
+  "character_desc": "Marty's mom. In 1985 she is tired and gloomy, but in 1955 she is a teenager who gets a big crush on the mysterious new kid in town. Uh oh: that new kid is her future son.",
+  "actor_facts": [
+   "She started out as a serious ballet dancer before she ever acted in movies.",
+   "She plays Lorraine as a teenager AND as a 47-year-old mom in the same movie, thanks to hours in the makeup chair.",
+   "She is just nine days older than Michael J. Fox, who plays her son."
+  ]
+ },
+ {
+  "actor": "Crispin Glover",
+  "character": "George",
+  "img": "george.jpg",
+  "character_desc": "Marty's dad, a shy guy who writes science fiction stories but is too scared to show them to anyone. One brave moment in 1955 changes his whole life.",
+  "actor_facts": [
+   "He was only 20 years old when he played George, as a teenager AND as a dad.",
+   "He made up a lot of George's nervous laughs and awkward moves himself.",
+   "He loves playing strange characters, like the Knave of Hearts in Alice in Wonderland."
+  ]
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "actor": "Cary Elwes",
+  "character": "Westley",
+  "img": "westley.jpg",
+  "character_desc": "A farm boy who answers every request with 'As you wish', sails away to seek his fortune, and returns as the mysterious Man in Black.",
+  "actor_facts": [
+   "He did almost every second of the great sword duel himself, after months of fencing practice.",
+   "He broke his toe during filming and hid it from the director so he would not be sent home.",
+   "He wrote a whole book about making this movie. It is called As You Wish, of course."
+  ]
+ },
+ {
+  "actor": "Robin Wright",
+  "character": "Buttercup",
+  "img": "buttercup.jpg",
+  "character_desc": "The most beautiful woman in the world, ordered to marry a prince she does not love. Brave enough to leap into eel waters and walk into the Fire Swamp.",
+  "actor_facts": [
+   "This was her first big movie. She was 20 years old.",
+   "She later played Antiope, the warrior general who trains Wonder Woman.",
+   "Between takes, Andre the Giant kept her warm with one enormous hand on her head."
+  ]
+ },
+ {
+  "actor": "Mandy Patinkin",
+  "character": "Inigo Montoya",
+  "img": "inigo.jpg",
+  "character_desc": "A Spanish swordsman on a lifelong quest to find the six-fingered man who killed his father. Kind, funny, and the best fencer in the land. Except maybe one.",
+  "actor_facts": [
+   "He says Inigo is his favorite role he has ever played.",
+   "He learned to fence right-handed AND left-handed for the duel.",
+   "He is also a famous Broadway singer with a huge voice."
+  ]
+ },
+ {
+  "actor": "Andre the Giant",
+  "character": "Fezzik",
+  "img": "fezzik.jpg",
+  "character_desc": "A gentle giant who loves rhymes and hates fighting dirty. Being the biggest and the strongest is just his job.",
+  "actor_facts": [
+   "He was a world-famous wrestler, billed at 7-foot-4 and over 500 pounds.",
+   "The author wrote Fezzik with Andre in mind years before the movie was made.",
+   "Cast members say he was the kindest person on the whole set."
+  ]
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "actor": "Henry Thomas",
+  "character": "Elliott",
+  "img": "elliott.jpg",
+  "character_desc": "A lonely kid stuck in the middle of the family: too young for his big brother's gang, stuck babysitting his little sister. Then he finds a best friend from another planet hiding behind the house.",
+  "actor_facts": [
+   "His audition was so sad and so real that Spielberg said 'Okay kid, you got the job' right on the spot.",
+   "He was 10 years old when he made the movie.",
+   "He grew up on a farm in Texas, far from Hollywood."
+  ]
+ },
+ {
+  "actor": "E.T.",
+  "character": "Himself",
+  "img": "et.jpg",
+  "character_desc": "A gentle plant scientist from another world, millions of light years from home, accidentally left behind on Earth. He loves candy, flowers, and his friend Elliott.",
+  "actor_facts": [
+   "E.T. was played by puppets AND a costume: different E.T.s for different scenes, with puppeteers working his face.",
+   "His kind, wise face was designed using photos of Albert Einstein and the poet Carl Sandburg.",
+   "His glowing heart-light and healing finger made him one of the most famous movie characters ever."
+  ]
+ },
+ {
+  "actor": "Drew Barrymore",
+  "character": "Gertie",
+  "img": "gertie.jpg",
+  "character_desc": "Elliott's little sister. She screams SO loud when she first meets E.T., then becomes his teacher: she dresses him up, reads to him, and helps him learn to talk.",
+  "actor_facts": [
+   "She was only 6, and she believed E.T. was really alive. The crew kept him 'alive' at lunchtime so she would not be sad.",
+   "She comes from one of the oldest acting families in Hollywood history.",
+   "She grew up to be a big movie star and now hosts her own talk show."
+  ]
+ },
+ {
+  "actor": "Robert MacNaughton",
+  "character": "Michael",
+  "img": "michael.jpg",
+  "character_desc": "Elliott and Gertie's big brother. He starts out teasing Elliott, but when E.T. needs help, he becomes the best big brother on the planet.",
+  "actor_facts": [
+   "He was 15 while filming, and played baseball with the other kids between takes.",
+   "Spielberg shot the movie mostly in story order, so the kids' friendship with E.T. grew for real while they filmed.",
+   "Years later he worked as a letter carrier for the post office, and said he loved that job."
+  ]
+ }
+]

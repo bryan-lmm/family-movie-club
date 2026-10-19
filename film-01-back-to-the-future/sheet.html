@@ -1,0 +1,132 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Back to the Future</title><style>
+@font-face { font-family: 'Bungee'; src: url('../film-club-src/static/bungee.woff2') format('woff2'); }
+@font-face { font-family: 'Nunito'; src: url('../film-club-src/static/nunito-400.woff2') format('woff2'); font-weight: 400; }
+@font-face { font-family: 'Nunito'; src: url('../film-club-src/static/nunito-700.woff2') format('woff2'); font-weight: 700; }
+@font-face { font-family: 'Nunito'; src: url('../film-club-src/static/nunito-800.woff2') format('woff2'); font-weight: 800; }
+@page { size: 8.5in 11in; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --velvet: #5c1a22; --brass: #d9a900; --brass-lt: #f5c518; --cream: #fdf6e7; --ink: #2a1a14; --mut: #7a5f52; --line: #cdb48c; }
+html, body { width: 8.5in; background: #888; }
+body { font-family: 'Nunito', 'Avenir Next', sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 8.5in; height: 11in; position: relative; overflow: hidden; background: var(--cream); display: flex; flex-direction: column; page-break-after: always; }
+.page:last-child { page-break-after: auto; }
+.only-front .back, .only-back .front { display: none; }
+.only-front .front, .only-back .back { page-break-after: auto; }
+h2 { font-family: 'Bungee', sans-serif; font-weight: 400; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--velvet); display: flex; align-items: center; gap: .08in; margin-bottom: .05in; }
+h2::after { content: ''; flex: 1; height: 2px; background: linear-gradient(90deg, var(--brass-lt), transparent); }
+p { font-size: 11.5px; line-height: 1.4; }
+
+/* ---- front: the program ---- */
+.sprocket { height: .13in; background-color: #1a0a0d;
+  background-image: repeating-linear-gradient(90deg, transparent 0, transparent .11in, var(--cream) .11in, var(--cream) .20in, transparent .20in, transparent .31in);
+  background-size: .31in .07in; background-position: .045in center; background-repeat: repeat-x; }
+.banner { position: relative; height: 2.05in; overflow: hidden; background: #0d0609; }
+.banner img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; }
+.banner .scrim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,4,7,.55) 0%, rgba(10,4,7,.15) 38%, transparent 55%); }
+.banner .ttl { position: absolute; top: .22in; left: .3in; right: .3in; text-align: center; }
+.banner .ttl.pos-right { left: 42%; text-align: right; }
+.banner .ttl.pos-left { right: 42%; text-align: left; }
+.banner .yr { font-family: 'Nunito'; font-weight: 800; font-size: 11px; letter-spacing: .24em; color: var(--brass-lt); text-shadow: 0 1px 0 #000; -webkit-text-stroke: .6px rgba(0,0,0,.8); paint-order: stroke fill; }
+.banner h1 { font-family: 'Bungee', sans-serif; font-weight: 400; font-size: 44px; line-height: 1.02; color: #fff8e6; margin-top: 2px;
+  /* NO blurred text-shadow here: Quartz (sips, Preview and CUPS) renders Chrome's blurred
+     text-shadow as a black box behind the line. A hard shadow, a stroke and a drop-shadow
+     filter all print clean (tested 2026-09-02). */
+  text-shadow: 0 3px 0 rgba(58,26,0,.95); -webkit-text-stroke: 1.2px rgba(20,8,10,.85); paint-order: stroke fill;
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,.65)); }
+.body { flex: 1; padding: .12in .42in .08in; display: flex; flex-direction: column; gap: .11in; }
+.row { display: flex; gap: .22in; }
+.facts { flex: 0 0 3.15in; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: .045in .15in; }
+.f { font-size: 11px; line-height: 1.22; font-weight: 700; }
+.f b { display: block; font-size: 7.5px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--velvet); margin-bottom: 1px; }
+.story { flex: 1; }
+.quote { margin-top: .07in; font-style: italic; font-weight: 700; font-size: 11.5px; color: var(--velvet); }
+.quote span { font-style: normal; font-weight: 800; font-size: 8.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--mut); margin-left: .06in; }
+.castrow { display: flex; gap: .16in; justify-content: space-between; }
+.card { flex: 1; text-align: center; }
+.card img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 22%; border-radius: .09in; border: 2px solid var(--velvet); display: block; }
+.card .cap { font-size: 9px; line-height: 1.2; margin-top: 3px; color: var(--mut); }
+.card .cap b { display: block; font-size: 10px; color: var(--ink); }
+.scenes .row { gap: .14in; }
+.scenes figure { flex: 1; }
+.scenes img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: .07in; border: 2px solid var(--velvet); display: block; }
+.scenes figcaption { font-size: 9.5px; line-height: 1.3; margin-top: 3px; display: flex; gap: 4px; }
+.scenes figcaption b { flex: none; width: 14px; height: 14px; border-radius: 50%; background: var(--velvet); color: #fff; font-family: 'Bungee'; font-weight: 400; font-size: 8px; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
+.numbers { flex: 0 0 2.5in; display: flex; flex-direction: column; }
+.numbers .list { display: flex; flex-direction: column; justify-content: space-between; flex: 1; gap: .04in; }
+.num { display: flex; align-items: baseline; gap: .1in; }
+.num b { font-family: 'Bungee', sans-serif; font-weight: 400; font-size: 21px; color: var(--velvet); white-space: nowrap; line-height: 1; }
+.num span { font-size: 9.5px; line-height: 1.25; color: var(--mut); font-weight: 700; }
+.wow { flex: 1; background: #fff3d8; border: 2px solid var(--brass-lt); border-radius: .12in; padding: .09in .13in .08in; }
+.wow h2 { margin-bottom: .03in; }
+.wow ul { list-style: none; }
+.wow li { position: relative; padding-left: .17in; font-size: 10px; line-height: 1.32; margin-bottom: .035in; }
+.wow li::before { content: ''; position: absolute; left: 0; top: 3px; width: 9px; height: 9px; background: var(--brass);
+  clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+.timecheck { border-top: 2px solid var(--velvet); padding-top: .05in; font-size: 10px; line-height: 1.3; color: var(--ink); font-weight: 700; display: flex; gap: .1in; align-items: baseline; }
+.timecheck b { font-family: 'Bungee'; font-weight: 400; font-size: 9px; letter-spacing: .08em; color: var(--velvet); white-space: nowrap; }
+.footer { background: #1a0a0d; color: #f0d9a8; text-align: center; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; font-size: 9px; padding: .075in 0; }
+.footer .cq { color: var(--brass-lt); }
+
+/* ---- back: the review ---- */
+.back .head { background: var(--velvet); color: var(--cream); padding: .12in .42in .1in; display: flex; align-items: baseline; gap: .2in; border-bottom: .06in solid var(--brass-lt); }
+.back .head h1 { font-family: 'Bungee', sans-serif; font-weight: 400; font-size: 26px; color: #fff8e6; }
+.back .head .of { font-weight: 800; font-size: 12px; color: var(--brass-lt); letter-spacing: .04em; }
+.back .head .club { margin-left: auto; font-size: 8.5px; letter-spacing: .2em; text-transform: uppercase; font-weight: 800; color: #f0d9a8; }
+.back .body { gap: .1in; padding-top: .14in; }
+.prompt { font-weight: 800; font-size: 12.5px; line-height: 1.35; }
+.line { border-bottom: 1.5px solid var(--line); height: .31in; }
+.namerow { display: flex; gap: .15in; align-items: baseline; }
+.namerow .prompt { flex: none; }
+.namerow .fill { flex: 1; border-bottom: 1.5px solid var(--line); }
+.namerow .fill.short { flex: 0 0 1.4in; }
+.rating { display: flex; align-items: center; gap: .1in; }
+.rating .stars { display: flex; gap: .09in; }
+.star { width: .32in; height: .32in; }
+.star path { fill: none; stroke: var(--velvet); stroke-width: 3.5; stroke-linejoin: round; }
+.rating .key { font-size: 9px; color: var(--mut); font-weight: 700; margin-left: .05in; }
+.faces { display: flex; justify-content: space-between; gap: .1in; margin: .02in 0 .06in; }
+.face { flex: 1; text-align: center; }
+.face img { width: .82in; height: .82in; object-fit: cover; object-position: 50% 22%; border-radius: 50%; border: 2.5px solid var(--velvet); display: block; margin: 0 auto; }
+.face span { display: block; font-weight: 800; font-size: 10px; margin-top: 3px; }
+.q { display: flex; flex-direction: column; }
+.q .prompt { display: flex; gap: .1in; }
+.q .n { flex: none; width: .28in; height: .28in; border-radius: 50%; background: var(--velvet); color: #fff8e6; font-family: 'Bungee'; font-weight: 400; font-size: 12px; display: inline-flex; align-items: center; justify-content: center; }
+.draw { flex: 1; display: flex; flex-direction: column; }
+.draw .box { flex: 1; border: 2px dashed var(--line); border-radius: .12in; min-height: 1.3in; }
+</style><script>var q=location.search;if(q.indexOf('only=front')>=0)document.documentElement.classList.add('only-front');if(q.indexOf('only=back')>=0)document.documentElement.classList.add('only-back');</script></head><body>
+<div class="page front">
+  <div class="sprocket"></div>
+  <div class="banner"><img src="banner.jpg"><div class="scrim"></div>
+    <div class="ttl"><div class="yr">1985</div><h1>Back to the Future</h1></div></div>
+  <div class="sprocket"></div>
+  <div class="body">
+    <div class="row">
+      <div class="facts"><h2>The facts</h2><div class="grid"><div class="f"><b>Year it came out</b>1985</div><div class="f"><b>How long it is</b>1 hour 56 minutes</div><div class="f"><b>Directed by</b>Robert Zemeckis</div><div class="f"><b>Presented by</b>Steven Spielberg</div><div class="f"><b>It won an Oscar for</b>Best Sound Effects Editing</div><div class="f"><b>Rated</b>PG</div></div></div>
+      <div class="story"><h2>The story</h2><p>Teenager Marty McFly gets zapped back to 1955 in a time machine Doc Brown built out of a DeLorean sports car. By accident, Marty stops his own parents from falling in love. Now he has to get them back together and race to the clock tower for his one shot at getting home.</p>
+        <div class="quote">&ldquo;Your future is whatever you make it. So make it a good one.&rdquo;<span>Doc Brown</span></div></div>
+    </div>
+    <div class="cast"><h2>Starring</h2><div class="castrow"><div class="card"><img src="marty.jpg"><div class="cap"><b>Michael J. Fox</b>as Marty McFly</div></div><div class="card"><img src="doc.jpg"><div class="cap"><b>Christopher Lloyd</b>as Doc Brown</div></div><div class="card"><img src="lorraine.png"><div class="cap"><b>Lea Thompson</b>as Lorraine</div></div><div class="card"><img src="george.jpg"><div class="cap"><b>Crispin Glover</b>as George</div></div></div></div>
+    <div class="scenes"><h2>Spot it while you watch</h2><div class="row"><figure><img src="scene1.jpg"><figcaption><b>1</b><span>Doc's very first test: he sends his dog Einstein one minute into the future.</span></figcaption></figure><figure><img src="scene2.jpg"><figcaption><b>2</b><span>The yellow radiation suit. Marty wears it again later, as Darth Vader from the planet Vulcan.</span></figcaption></figure><figure><img src="scene3.jpg"><figcaption><b>3</b><span>Look on the roof: Mr. Fusion, the machine that runs on garbage in the very last scene.</span></figcaption></figure></div></div>
+    <div class="row">
+      <div class="numbers"><h2>By the numbers</h2><div class="list"><div class="num"><b>88 mph</b><span>the speed the DeLorean must hit to travel through time</span></div><div class="num"><b>1.21 gigawatts</b><span>of power, which only a lightning bolt could give Doc in 1955</span></div><div class="num"><b>$381 million</b><span>made it the biggest movie in the world in 1985</span></div></div></div>
+      <div class="wow"><h2>Great Scott! Did you know...</h2><ul><li>The DeLorean needs to hit exactly 88 mph, powered by 1.21 gigawatts, to break the time barrier.</li><li>Michael J. Fox filmed his TV show all day and this movie all night. He barely slept for months!</li><li>Another actor, Eric Stoltz, filmed Marty for weeks before Michael J. Fox took over the part.</li><li>Doc's dog in 1955 is Copernicus and in 1985 is Einstein: both named after famous scientists.</li></ul></div>
+    </div>
+    
+  </div>
+  <div class="footer">Family Movie Club &nbsp;&bull;&nbsp; <span class="cq">&ldquo;Where we're going, we don't need roads.&rdquo;</span></div>
+</div>
+<div class="page back">
+  <div class="head"><h1>My Review</h1><div class="of">of Back to the Future</div><div class="club">Family Movie Club</div></div>
+  <div class="body">
+    <div class="namerow"><span class="prompt">My name</span><span class="fill"></span><span class="prompt">Date watched</span><span class="fill short"></span></div>
+    <div class="rating"><span class="prompt">My rating</span><div class="stars"><svg class="star" viewBox="0 0 50 50"><path d="M25 4 L31 19 L47 19 L34 29 L39 45 L25 35 L11 45 L16 29 L3 19 L19 19 Z"/></svg><svg class="star" viewBox="0 0 50 50"><path d="M25 4 L31 19 L47 19 L34 29 L39 45 L25 35 L11 45 L16 29 L3 19 L19 19 Z"/></svg><svg class="star" viewBox="0 0 50 50"><path d="M25 4 L31 19 L47 19 L34 29 L39 45 L25 35 L11 45 L16 29 L3 19 L19 19 Z"/></svg><svg class="star" viewBox="0 0 50 50"><path d="M25 4 L31 19 L47 19 L34 29 L39 45 L25 35 L11 45 L16 29 L3 19 L19 19 Z"/></svg><svg class="star" viewBox="0 0 50 50"><path d="M25 4 L31 19 L47 19 L34 29 L39 45 L25 35 L11 45 L16 29 L3 19 L19 19 Z"/></svg></div><span class="key">Color in the stars. 1 = never again, 5 = all-time favorite</span></div>
+    <div class="fav"><h2>Circle your favorite character</h2>
+      <div class="faces"><div class="face"><img src="marty.jpg"><span>Marty McFly</span></div><div class="face"><img src="doc.jpg"><span>Doc Brown</span></div><div class="face"><img src="lorraine.png"><span>Lorraine</span></div><div class="face"><img src="george.jpg"><span>George</span></div></div>
+      <div class="prompt">Why? What makes them your favorite?</div><div class="line"></div><div class="line"></div></div>
+    <div class="q"><div class="prompt"><span class="n">1</span><span>Marty's family photo keeps fading as the movie goes on. What does that photo really show, and why does it come back at the end?</span></div><div class="line"></div><div class="line"></div><div class="line"></div></div><div class="q"><div class="prompt"><span class="n">2</span><span>What if Marty had never pushed George out of the way of the car? Trace what happens next.</span></div><div class="line"></div><div class="line"></div><div class="line"></div></div><div class="q"><div class="prompt"><span class="n">3</span><span>Doc says nobody should know too much about their own future. Would you want to know yours? Why or why not?</span></div><div class="line"></div><div class="line"></div><div class="line"></div></div>
+    <div class="draw"><h2>Draw your favorite scene</h2><div class="box"></div></div>
+  </div>
+  <div class="footer">Family Movie Club &nbsp;&bull;&nbsp; <span class="cq">&ldquo;Where we're going, we don't need roads.&rdquo;</span></div>
+</div></body></html>

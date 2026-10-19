@@ -1,0 +1,110 @@
+[
+ {
+  "q": "What year did The Goonies come out in theaters?",
+  "options": [
+   "1985",
+   "1979",
+   "1995"
+  ],
+  "answer": 0,
+  "explain": "1985, the same year as Back to the Future!",
+  "type": "mc"
+ },
+ {
+  "type": "number",
+  "q": "How many kids are in the Goonies gang?",
+  "min": 1,
+  "max": 12,
+  "step": 1,
+  "unit": "Goonies",
+  "answer": 7,
+  "tolerance": 0,
+  "explain": "Seven: Mikey, Brand, Chunk, Mouth, Data, Andy and Stef. It is on your fact sheet under By the numbers."
+ },
+ {
+  "type": "who",
+  "q": "Who has to do the Truffle Shuffle before the others will let him in?",
+  "options": [
+   "Mikey",
+   "Chunk",
+   "Data",
+   "Mouth"
+  ],
+  "answer": 1,
+  "explain": "Chunk. It is the very first thing we see him do, and the Goonies never let him forget it."
+ },
+ {
+  "type": "order",
+  "q": "Put the treasure hunt in order.",
+  "items": [
+   "Mikey finds the map in the attic",
+   "Chunk is captured by the Fratellis",
+   "The Goonies find One-Eyed Willy's ship",
+   "The ship sails out of the cave on its own"
+  ],
+  "explain": "Map first, then Chunk gets caught, then the ship, and at the very end it sails away by itself."
+ },
+ {
+  "type": "tf",
+  "q": "Sloth is part of the Fratelli family.",
+  "answer": true,
+  "explain": "True. Sloth is the Fratelli brother they keep chained in the basement, and he chooses the Goonies instead."
+ },
+ {
+  "type": "blank",
+  "q": "Goonies never say ____!",
+  "options": [
+   "die",
+   "no",
+   "quit"
+  ],
+  "answer": 0,
+  "explain": "Die! Mikey shouts it when everyone wants to give up and go home."
+ },
+ {
+  "q": "Why do the Goonies need a miracle to save their homes?",
+  "options": [
+   "The country club plans to buy the neighborhood and bulldoze it",
+   "A storm washed away the docks",
+   "The school is expanding onto their street"
+  ],
+  "answer": 0,
+  "explain": "The Goondocks is about to become a golf course unless the families can pay off the bank.",
+  "type": "mc"
+ },
+ {
+  "q": "Which pirate left the treasure behind?",
+  "options": [
+   "One-Eyed Willy",
+   "Blackbeard",
+   "Captain Fratelli"
+  ],
+  "answer": 0,
+  "explain": "One-Eyed Willy, the first Goonie. He hid his ship and treasure from the British navy.",
+  "type": "mc"
+ },
+ {
+  "q": "How is the Goondocks finally saved at the end?",
+  "options": [
+   "Jewels hidden in Mikey's marble bag pay off the debt",
+   "They sell One-Eyed Willy's ship to a museum",
+   "The Fratellis' reward money covers it"
+  ],
+  "answer": 0,
+  "explain": "Mikey skipped the scale on Willy's treasure... but his marble bag caught a handful of jewels. No pen! Do not sign!",
+  "type": "mc"
+ },
+ {
+  "type": "spot",
+  "q": "Tap Chunk.",
+  "scene": 1,
+  "targets": [
+   [
+    0.17,
+    0.36,
+    0.13
+   ]
+  ],
+  "explain": "That is Chunk on the left, played by Jeff Cohen. The other three are Mikey, Mouth and Data."
+ }
+]

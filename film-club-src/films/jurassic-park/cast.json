@@ -1,0 +1,46 @@
+[
+ {
+  "actor": "Sam Neill",
+  "character": "Dr. Alan Grant",
+  "img": "grant.jpg",
+  "character_desc": "A dinosaur-bone scientist (a paleontologist) who loves dinosaurs but is not so sure about kids. Two lost grandkids in a broken park are about to change his mind.",
+  "actor_facts": [
+   "He grew up in New Zealand and still lives there, on a farm with its own vineyard.",
+   "He names his farm animals after actor friends. There is a pig named after a Jurassic Park co-star.",
+   "He came back to play Dr. Grant again in Jurassic World Dominion, 29 years later."
+  ]
+ },
+ {
+  "actor": "Laura Dern",
+  "character": "Dr. Ellie Sattler",
+  "img": "ellie.jpg",
+  "character_desc": "A plant scientist (a paleobotanist) who is brave, calm, and not about to wait in the car while someone else does the dangerous job.",
+  "actor_facts": [
+   "Both of her parents were famous movie actors.",
+   "She won an Oscar in 2020, and came back as Ellie in Jurassic World Dominion.",
+   "She was in Star Wars: The Last Jedi as Admiral Holdo, the one with the purple hair."
+  ]
+ },
+ {
+  "actor": "Jeff Goldblum",
+  "character": "Dr. Ian Malcolm",
+  "img": "malcolm.jpg",
+  "character_desc": "A mathematician who studies chaos: how tiny changes cause giant surprises. He warns everyone that the park cannot be controlled. Nobody listens.",
+  "actor_facts": [
+   "That famous... way he... talks? A lot of Malcolm's lines were his own improvised twists.",
+   "He plays piano in a real jazz band that tours and makes albums.",
+   "He has now played Ian Malcolm in four Jurassic movies."
+  ]
+ },
+ {
+  "actor": "Richard Attenborough",
+  "character": "John Hammond",
+  "img": "hammond.jpg",
+  "character_desc": "The dreamer billionaire who built the park and spared no expense. He wanted to make people happy. His dream just has a few... teeth.",
+  "actor_facts": [
+   "He was a famous DIRECTOR too: his movie Gandhi won 8 Oscars, beating E.T. for Best Picture!",
+   "Jurassic Park was his first acting job in 14 years. Spielberg talked him into it.",
+   "His brother is David Attenborough, the voice of the world's most famous nature documentaries."
+  ]
+ }
+]

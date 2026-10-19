@@ -1,0 +1,104 @@
+[
+ {
+  "title": "The Sandlot",
+  "year": 1993,
+  "pitch": "One summer, one baseball team, one legendary beast behind the fence. You're killing me, Smalls!",
+  "img": "the-sandlot.jpg"
+ },
+ {
+  "title": "Home Alone",
+  "year": 1990,
+  "pitch": "Kevin's family flies to Paris and forgets HIM. Two burglars are about to meet the greatest trap-builder of all time.",
+  "img": "home-alone.jpg"
+ },
+ {
+  "title": "The Iron Giant",
+  "year": 1999,
+  "pitch": "A boy finds a 50-foot robot from space. You are who you choose to be.",
+  "img": "the-iron-giant.jpg"
+ },
+ {
+  "title": "Willy Wonka & the Chocolate Factory",
+  "year": 1971,
+  "pitch": "Five golden tickets, one mysterious chocolate factory, and a test almost nobody passes.",
+  "img": "willy-wonka.jpg"
+ },
+ {
+  "title": "Hook",
+  "year": 1991,
+  "pitch": "What if Peter Pan grew up, forgot everything, and had to become Peter Pan again? Bangarang!",
+  "img": "hook.jpg"
+ },
+ {
+  "title": "The NeverEnding Story",
+  "year": 1984,
+  "pitch": "A boy opens a book and the story starts reading HIM. A luck dragon, a nothing, and a new name.",
+  "img": "the-neverending-story.jpg"
+ },
+ {
+  "title": "The Wizard of Oz",
+  "year": 1939,
+  "pitch": "Dorothy opens a door and the whole world turns to color. A yellow brick road, a wicked witch, and three friends who need a brain, a heart, and courage.",
+  "img": "the-wizard-of-oz.jpg"
+ },
+ {
+  "title": "Toy Story",
+  "year": 1995,
+  "pitch": "What do your toys do when you leave the room? Woody and Buzz find out they need each other. To infinity and beyond!",
+  "img": "toy-story.jpg"
+ },
+ {
+  "title": "Mary Poppins",
+  "year": 1964,
+  "pitch": "A nanny floats in on an umbrella, jumps into a chalk painting, and has tea on the ceiling. Practically perfect in every way.",
+  "img": "mary-poppins.jpg"
+ },
+ {
+  "title": "The Karate Kid",
+  "year": 1984,
+  "pitch": "Wax on, wax off. The new kid gets picked on until a quiet handyman teaches him karate in the strangest way possible.",
+  "img": "the-karate-kid.jpg"
+ },
+ {
+  "title": "Babe",
+  "year": 1995,
+  "pitch": "A little pig decides he wants to be a sheepdog. Everyone laughs, except the sheep. That'll do, pig.",
+  "img": "babe.jpg"
+ },
+ {
+  "title": "My Neighbor Totoro",
+  "year": 1988,
+  "pitch": "Two sisters move to the countryside and meet a giant, fluffy forest spirit at a rainy bus stop. A movie with no bad guy at all.",
+  "img": "my-neighbor-totoro.jpg"
+ },
+ {
+  "title": "The Incredibles",
+  "year": 2004,
+  "pitch": "A family of superheroes has to hide their powers, until the world needs them. Where is my super suit?",
+  "img": "the-incredibles.jpg"
+ },
+ {
+  "title": "Star Wars",
+  "year": 1977,
+  "pitch": "A farm boy, a princess, a smuggler, and a walking carpet take on an empire. The one that started it all.",
+  "img": "star-wars.jpg"
+ },
+ {
+  "title": "The Lion King",
+  "year": 1994,
+  "pitch": "A lion cub who cannot wait to be king runs from his biggest mistake, then comes home to face it. Hakuna matata.",
+  "img": "the-lion-king.jpg"
+ },
+ {
+  "title": "Raiders of the Lost Ark",
+  "year": 1981,
+  "pitch": "A professor with a whip and a hat races the bad guys to a lost treasure. Snakes. Why did it have to be snakes?",
+  "img": "raiders-of-the-lost-ark.jpg"
+ },
+ {
+  "title": "Ghostbusters",
+  "year": 1984,
+  "pitch": "Who you gonna call? Four scientists in a beat-up ambulance catch ghosts all over New York, until a giant marshmallow man shows up.",
+  "img": "ghostbusters.jpg"
+ }
+]

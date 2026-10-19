@@ -1,0 +1,47 @@
+{
+ "_rule": "HARD RULES. 1) Print BORDERLESS: the art covers the whole 13x19 sheet, media=13x19.Fullbleed. 2) The TITLE IS SACRED: every letter of it stays clear of the frame lip. Take the crop off the billing-block edge and let the billing block go. A 2000x3000 scan is 2:3 and the sheet is 0.684, so 0.53in of height always has to go somewhere; it goes wherever the title is not.",
+ "_bias": "0.0 crops off the BOTTOM, 1.0 off the TOP, 0.5 centered. The frame lip hides a further 0.25in per side on top of the crop.",
+ "_sources": "Must be exactly 2000x3000 AND borderless (cropped to the artwork). A scan carrying the poster's own white paper border reads as proportionally taller and costs over an inch instead of 0.53in, which clips the title.",
+ "films": [
+  {
+   "slug": "back-to-the-future",
+   "dir": "film-01-back-to-the-future",
+   "source": "poster-source-1985-onesheet-borderless.jpg",
+   "bias": 0.0,
+   "why": "title top: crop off the bottom",
+   "short": "bttf"
+  },
+  {
+   "slug": "e-t-the-extra-terrestrial",
+   "dir": "film-02-e-t",
+   "source": "poster-source-1982-20th-anniversary.jpg",
+   "bias": 0.0,
+   "why": "anniversary line sits 88px from the top; the title has 214px of forest under it, so the bottom is the cheap edge",
+   "short": "et"
+  },
+  {
+   "slug": "jurassic-park",
+   "dir": "film-jurassic-park",
+   "source": "poster-source-1993-onesheet-2000x3000.jpg",
+   "bias": 0.0,
+   "why": "logo up top, billing block at the bottom: clip the billing block",
+   "short": "jp"
+  },
+  {
+   "slug": "the-goonies",
+   "dir": "film-the-goonies",
+   "source": "poster-source-1985-onesheet-borderless.jpg",
+   "bias": 0.0,
+   "why": "title sits low but clear: crop off the bottom",
+   "short": "goonies"
+  },
+  {
+   "slug": "the-princess-bride",
+   "dir": "film-the-princess-bride",
+   "source": "poster-source-1987-onesheet.jpg",
+   "bias": 1.0,
+   "why": "title is at the BOTTOM, so the crop comes off the top canopy",
+   "short": "princess-bride"
+  }
+ ]
+}

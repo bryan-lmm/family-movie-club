@@ -1,0 +1,110 @@
+[
+ {
+  "q": "What year did E.T. come out in theaters?",
+  "options": [
+   "1982",
+   "1972",
+   "1992"
+  ],
+  "answer": 0,
+  "explain": "1982! It is right at the top of your fact sheet.",
+  "type": "mc"
+ },
+ {
+  "type": "number",
+  "q": "How many Oscars did E.T. win?",
+  "min": 0,
+  "max": 10,
+  "step": 1,
+  "unit": "Oscars",
+  "answer": 4,
+  "tolerance": 0,
+  "explain": "Four: for its music, its sound, its sound effects and its visual effects. It is on your fact sheet."
+ },
+ {
+  "type": "who",
+  "q": "Who teaches E.T. to talk, with a little help from Sesame Street?",
+  "options": [
+   "Elliott",
+   "E.T.",
+   "Gertie",
+   "Michael"
+  ],
+  "answer": 2,
+  "explain": "Gertie. She dresses him up, sits him in front of the TV, and gets him saying his first words."
+ },
+ {
+  "type": "order",
+  "q": "Put E.T.'s adventure in order.",
+  "items": [
+   "Elliott leaves a trail of Reese's Pieces",
+   "E.T. builds a phone out of a Speak & Spell",
+   "E.T. gets sick and the agents take over the house",
+   "The bikes fly over the police roadblock"
+  ],
+  "explain": "Candy trail, then the phone, then the sickness, then the flying bikes on the way to the ship."
+ },
+ {
+  "type": "tf",
+  "q": "At the end of the movie, E.T. decides to stay on Earth with Elliott.",
+  "answer": false,
+  "explain": "False. E.T. goes home with his family, but first he tells Elliott: I'll be right here."
+ },
+ {
+  "type": "blank",
+  "q": "I'll be right ____.",
+  "options": [
+   "here",
+   "home",
+   "back"
+  ],
+  "answer": 0,
+  "explain": "Here. E.T. touches his glowing finger to Elliott's forehead when he says it."
+ },
+ {
+  "q": "What candy does Elliott use to lead E.T. into his house?",
+  "options": [
+   "Reese's Pieces",
+   "M&Ms",
+   "Candy corn"
+  ],
+  "answer": 0,
+  "explain": "A trail of Reese's Pieces. Real-life sales of the candy exploded after the movie.",
+  "type": "mc"
+ },
+ {
+  "q": "Elliott and E.T. share feelings. What does Elliott do at school that proves it?",
+  "options": [
+   "He sets all the frogs free in science class",
+   "He falls asleep at his desk",
+   "He wins the spelling bee"
+  ],
+  "answer": 0,
+  "explain": "While E.T. gets into trouble at home, Elliott goes wild at school and frees every frog in class.",
+  "type": "mc"
+ },
+ {
+  "q": "How does Elliott know E.T. is alive again?",
+  "options": [
+   "The wilted flowers bloom again and his heart-light glows",
+   "It starts to rain",
+   "The TV turns itself on"
+  ],
+  "answer": 0,
+  "explain": "The dying flowers spring back to life, and E.T.'s chest glows red. He got the message: his family is coming!",
+  "type": "mc"
+ },
+ {
+  "type": "spot",
+  "q": "Tap E.T.'s glowing finger, the one that heals.",
+  "scene": 3,
+  "targets": [
+   [
+    0.72,
+    0.19,
+    0.08
+   ]
+  ],
+  "explain": "The healing finger. It fixes Elliott's cut, brings the flowers back, and says goodbye."
+ }
+]

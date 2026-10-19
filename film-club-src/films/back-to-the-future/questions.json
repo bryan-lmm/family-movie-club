@@ -1,0 +1,110 @@
+[
+ {
+  "q": "What year did Back to the Future come out in theaters?",
+  "options": [
+   "1985",
+   "1975",
+   "1995"
+  ],
+  "answer": 0,
+  "explain": "1985. It is right at the top of your fact sheet.",
+  "type": "mc"
+ },
+ {
+  "type": "number",
+  "q": "How fast does the DeLorean have to go to travel through time?",
+  "min": 0,
+  "max": 120,
+  "step": 1,
+  "unit": "mph",
+  "answer": 88,
+  "tolerance": 0,
+  "explain": "88 miles per hour, exactly. Doc built the whole machine around that number. It is on your fact sheet under By the numbers."
+ },
+ {
+  "type": "who",
+  "q": "Who says \"Great Scott!\" every time something amazing happens?",
+  "options": [
+   "Marty McFly",
+   "Doc Brown",
+   "Lorraine",
+   "George"
+  ],
+  "answer": 1,
+  "explain": "Doc Brown. It is his favorite thing to shout, so we named our trivia box after it."
+ },
+ {
+  "type": "order",
+  "q": "Put the night of the lightning storm in order.",
+  "items": [
+   "Marty plays Johnny B. Goode at the school dance",
+   "A falling branch knocks the cable loose from the clock tower",
+   "Doc slides down the cable to plug it back in",
+   "Lightning hits the clock tower and Marty vanishes"
+  ],
+  "explain": "Dance first, then the cable comes loose, Doc reconnects it at the last second, and the lightning sends Marty home."
+ },
+ {
+  "type": "tf",
+  "q": "In 1955, Marty's own mom Lorraine gets a crush on him.",
+  "answer": true,
+  "explain": "True, and it is a big problem: she is supposed to fall for George, or Marty will never be born."
+ },
+ {
+  "type": "blank",
+  "q": "Where we're going, we don't need ____.",
+  "options": [
+   "roads",
+   "cars",
+   "maps"
+  ],
+  "answer": 0,
+  "explain": "Roads! Doc says it right before the DeLorean lifts off the ground at the very end."
+ },
+ {
+  "q": "Why does Marty dress up in the radiation suit and call himself 'Darth Vader from the planet Vulcan'?",
+  "options": [
+   "To scare George into asking Lorraine to the dance",
+   "To hide from Biff and his gang",
+   "Because it was Halloween in 1955"
+  ],
+  "answer": 0,
+  "explain": "George would not listen to Marty, so Marty gave him a midnight visit from space to push him toward Lorraine.",
+  "type": "mc"
+ },
+ {
+  "q": "At the end of the movie, how did Doc survive being shot by the Libyans?",
+  "options": [
+   "He taped the letter back together, read it, and wore a bulletproof vest",
+   "Marty pushed him out of the way just in time",
+   "The Libyans ran out of bullets and drove away"
+  ],
+  "answer": 0,
+  "explain": "Doc kept the pieces of Marty's letter for 30 years and decided the warning was worth the risk.",
+  "type": "mc"
+ },
+ {
+  "q": "Why do Marty's brother and sister start disappearing from the family photo?",
+  "options": [
+   "Marty accidentally stopped his parents from falling in love",
+   "The photo got wet in the time machine",
+   "Biff tore the photo on purpose"
+  ],
+  "answer": 0,
+  "explain": "Marty pushed his dad out of the way of the car, so his mom fell for Marty instead of George. No love story means no kids!",
+  "type": "mc"
+ },
+ {
+  "type": "spot",
+  "q": "Tap Mr. Fusion, the machine on the roof that runs the DeLorean on garbage.",
+  "scene": 3,
+  "targets": [
+   [
+    0.47,
+    0.33,
+    0.09
+   ]
+  ],
+  "explain": "That little unit on the roof replaced the plutonium. Doc fills it with banana peels and old beer in the last scene."
+ }
+]

@@ -1,0 +1,135 @@
+[
+ {
+  "q": "What year did Jurassic Park come out in theaters?",
+  "options": [
+   "1993",
+   "1985",
+   "2001"
+  ],
+  "answer": 0,
+  "explain": "1993! Right at the top of your fact sheet.",
+  "type": "mc"
+ },
+ {
+  "type": "number",
+  "q": "How many minutes of dinosaurs are actually in this two-hour movie?",
+  "min": 0,
+  "max": 60,
+  "step": 1,
+  "unit": "minutes",
+  "answer": 15,
+  "tolerance": 0,
+  "explain": "Only 15 minutes! 9 minutes of robots and 6 of computer animation. The rest is people being scared. It is on your fact sheet."
+ },
+ {
+  "type": "who",
+  "q": "Who says \"Welcome... to Jurassic Park\"?",
+  "options": [
+   "Dr. Alan Grant",
+   "Dr. Ellie Sattler",
+   "Dr. Ian Malcolm",
+   "John Hammond"
+  ],
+  "answer": 3,
+  "explain": "John Hammond, the man who built the park, when the jeeps roll into the valley of dinosaurs."
+ },
+ {
+  "type": "order",
+  "q": "Put the night everything went wrong in order.",
+  "items": [
+   "Nedry shuts off the security fences",
+   "The tour cars stop in front of the T-rex paddock",
+   "The T-rex breaks through and attacks the cars",
+   "The raptors hunt Tim and Lex in the kitchen"
+  ],
+  "explain": "Nedry turns off the power, the cars die, the T-rex walks right through the fence, and the raptors come last."
+ },
+ {
+  "type": "tf",
+  "q": "Every dinosaur in the park was made female so they could not have babies.",
+  "answer": true,
+  "explain": "True. That was the plan. But the dinosaurs found a way, and Dr. Grant finds hatched eggs in the jungle."
+ },
+ {
+  "type": "blank",
+  "q": "Life finds a ____.",
+  "options": [
+   "way",
+   "path",
+   "reason"
+  ],
+  "answer": 0,
+  "explain": "Way. Dr. Malcolm says it, and the dinosaurs prove him right."
+ },
+ {
+  "q": "How do the scientists bring dinosaurs back to life?",
+  "options": [
+   "Dinosaur DNA from mosquitoes trapped in amber",
+   "Frozen dinosaur eggs found under the ice",
+   "A time machine brings them from the past"
+  ],
+  "answer": 0,
+  "explain": "Mosquitoes bit dinosaurs, got stuck in tree sap, and the sap hardened into amber with the blood still inside.",
+  "type": "mc"
+ },
+ {
+  "q": "Why is the cup of water on the jeep dashboard famous?",
+  "options": [
+   "Its rippling rings warn that the T-rex is coming",
+   "Tim spills it on the radio and breaks it",
+   "It proves the jeep is out of gas"
+  ],
+  "answer": 0,
+  "explain": "Boom... boom... each T-rex footstep sends rings through the water. One of the most famous shots in movie history.",
+  "type": "mc"
+ },
+ {
+  "q": "Where do Tim and Lex hide from the two raptors?",
+  "options": [
+   "The kitchen",
+   "The gift shop",
+   "The garage"
+  ],
+  "answer": 0,
+  "explain": "The stainless-steel kitchen. Shiny counters, clattering spoons, and two very clever girls hunting.",
+  "type": "mc"
+ },
+ {
+  "type": "spot",
+  "q": "Tap a burning torch on the big park gate.",
+  "scene": 1,
+  "targets": [
+   [
+    0.27,
+    0.06,
+    0.07
+   ],
+   [
+    0.55,
+    0.06,
+    0.07
+   ],
+   [
+    0.27,
+    0.23,
+    0.07
+   ],
+   [
+    0.55,
+    0.23,
+    0.07
+   ],
+   [
+    0.25,
+    0.45,
+    0.07
+   ],
+   [
+    0.54,
+    0.44,
+    0.07
+   ]
+  ],
+  "explain": "Hammond wanted the gate to feel like an adventure, so it burns with torches like an ancient temple."
+ }
+]
